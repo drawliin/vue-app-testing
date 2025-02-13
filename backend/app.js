@@ -47,6 +47,6 @@ app.delete('/tasks/:id', (req, res) => {
 
 // Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
+app.listen(5000, () => {
   console.log(`Server running on port ${PORT}`);
 });
